@@ -2,4 +2,4 @@
 
 $db = new mysqli;
 
-$db->connect('82.180.143.204', 'root', '', 'u618748507_VeHcg');
+$db->connect('u618748507_VeHcg', 'root', '', 'u618748507_VeHcg');
