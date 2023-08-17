@@ -7,5 +7,10 @@ $dotenv->load();
 
 $db = new mysqli;
 
-$db->connect($_ENV['host_Ip'], $_ENV['mysql_User'], $_ENV['mysql_pass'], $_ENV['mysql_db']);
+$hostip = $_ENV['IP'];
+$hostuser = $_ENV['USER'];
+$hostpass = $_ENV['PASS'];
+$hostdb = $_ENV['DB'];
+
+$db->connect($hostip, $hostuser, $hostpass, $hostdb);
 ?>
