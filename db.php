@@ -7,5 +7,5 @@ $dotenv->load();
 
 $db = new mysqli;
 
-$db->connect($_ENV['host_Ip'], 'u618748507_admin', 'Admin123', 'u618748507_crudphp');
+$db->connect($_ENV['host_Ip'], $_ENV['mysql_User'], $_ENV['mysql_pass'], $_ENV['mysql_db']);
 ?>
