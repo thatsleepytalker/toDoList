@@ -2,4 +2,5 @@
 
 $db = new mysqli;
 
-$db->connect('u618748507_s0XFB', 'root', '', 'u618748507_VeHcg');
+$db->connect('srv920.hstgr.io', 'u618748507_admin', 'Admin123', 'u618748507_crudphp');
+?>
