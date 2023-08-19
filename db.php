@@ -9,7 +9,7 @@ $db = new mysqli;
 
 $hostip = $_ENV['IP'];
 $hostuser = $_ENV['USER'];
-$hostpass = $_ENV['PASS'];
+$hostpass = $_ENV['PASSS'];
 $hostdb = $_ENV['DB'];
 
 $db->connect($hostip, $hostuser, $hostpass, $hostdb);
